@@ -66,6 +66,7 @@
 &trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans  &trans
 &trans       &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans  &trans
 &bootloader  &trans        &trans        &trans        &trans        &trans                          &trans             &trans          &trans           &trans  &trans  &bootloader
+&none        &none         &none         &none                                                                                          &none            &none   &none   &none
                                                               &trans  &trans &trans       &trans  &trans &trans
                                                               &trans  &trans &trans       &trans  &trans &trans
             >;
