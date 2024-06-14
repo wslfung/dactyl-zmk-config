@@ -8,6 +8,10 @@
     row-offset = <7>;
 };
 
+&dactyl_dual_arc_number_row {
+    row-offset = <7>;
+}
+
 &kscan0 {
     row-gpios
         = <&pro_micro 8 GPIO_ACTIVE_HIGH> // row0 from schematic
