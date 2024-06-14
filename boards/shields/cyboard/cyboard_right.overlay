@@ -10,7 +10,7 @@
 
 &dactyl_dual_arc_number_row {
     row-offset = <7>;
-}
+};
 
 &kscan0 {
     row-gpios
