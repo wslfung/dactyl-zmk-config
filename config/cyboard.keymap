@@ -41,18 +41,18 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp F1   &kp F2     &kp F3    &kp F4     &kp F5           &kp F6
-&kp F7   &kp F8     &kp F9    &kp F10    &kp F11          &kp F12
-&trans   &kp GRAVE  &trans    &trans     &kp PRINTSCREEN  &trans
-&kp INS  &kp HOME   &kp UP    &kp END    &kp PG_UP        &trans
-&trans   &trans     &trans    &trans     &trans           &trans
-&kp DEL  &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN        &kp RGUI
-&trans   &trans     &trans    &trans     &trans           &trans
-&trans   &kp EQUAL  &kp LBKT  &kp RBKT   &trans           &trans
-&none    &none      &none     &none
-         &none      &none     &none      &none
-&trans   &trans     &trans    &trans     &trans           &trans
-&trans   &trans     &trans    &trans     &trans           &trans
+&kp F1     &kp F2     &kp F3    &kp F4     &kp F5           &kp F6
+&kp F7     &kp F8     &kp F9    &kp F10    &kp F11          &kp F12
+&trans     &kp GRAVE  &trans    &trans     &kp PRINTSCREEN  &trans
+&kp INS    &kp HOME   &kp UP    &kp END    &kp PG_UP        &trans
+&trans     &trans     &trans    &trans     &trans           &trans
+&kp DEL    &kp LEFT   &kp DOWN  &kp RIGHT  &kp PG_DN        &kp RGUI
+&trans     &trans     &trans    &trans     &trans           &trans
+&kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &trans           &trans
+&none      &none      &none     &none
+           &none      &none     &none      &none
+&trans     &trans     &trans    &trans     &trans           &trans
+&trans     &trans     &trans    &trans     &trans           &trans
             >;
         };
 
