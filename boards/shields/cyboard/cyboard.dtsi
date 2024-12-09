@@ -1,10 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "cyboard_physical.dtsi"
+
+&dactyl_layout {
+  kscan = &kscan0;
+  transform = &dactyl_dual_arc_number_row;
+};
 
 / {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix_transform = &dactyl_dual_arc_number_row;
-    };
 
     default_transform: keymap_transform_0 {//contains all possible key postions on the first 6 columns and 6 thumb keys of the cyboard flex-pcb system
         compatible = "zmk,matrix-transform";
