@@ -2,8 +2,8 @@
 #include "cyboard_physical.dtsi"
 
 &dactyl_layout {
-  kscan = &kscan0;
-  transform = &dactyl_dual_arc_number_row;
+  kscan = <&kscan0>;
+  transform = <&dactyl_dual_arc_number_row>;
 };
 
 / {
