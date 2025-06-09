@@ -50,11 +50,11 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &trans     &kp NUMBER_8  &trans     &trans       &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp KP_N7  &kp KP_N8     &kp KP_N9  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp KP_N4  &kp KP_N5     &kp KP_N6  &kp KP_PLUS  &kp KP_EQUAL
-&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp KP_N1  &kp KP_N2     &kp KP_N3  &kp SLASH    &trans
-&none   &none   &none   &none                                                                               &none         &none      &none        &none
+&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &trans     &kp NUMBER_8    &trans      &trans       &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp N7     &kp N8          &kp N9      &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp N4     &kp N5          &kp N6      &kp KP_PLUS  &kp KP_EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp N1     &kp N2          &kp N3      &kp SLASH    &trans
+&none   &none   &none   &none                                                                               &none           &none       &none        &none
                                         &trans  &trans  &trans    &trans  &kp KP_N0  &kp KP_DOT
                                                 &trans  &trans    &trans  &trans
             >;
