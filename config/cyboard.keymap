@@ -55,7 +55,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp N4     &kp N5          &kp N6      &kp KP_PLUS  &kp KP_EQUAL
 &trans  &trans  &trans  &trans  &trans  &trans                                       &trans      &kp N1     &kp N2          &kp N3      &kp SLASH    &trans
 &none   &none   &none   &none                                                                               &none           &none       &none        &none
-                                        &trans  &trans  &trans    &trans  &kp N0  &kp ~DOT
+                                        &trans  &trans  &trans    &trans  &kp N0  &kp DOT
                                                 &trans  &trans    &trans  &trans
             >;
         };
