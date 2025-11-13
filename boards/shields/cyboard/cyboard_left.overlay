@@ -1,11 +1,8 @@
 #include "cyboard.dtsi"
 
-kscan0: kscan {
+&kscan0 {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
-    wakeup-source;
-
-    diode-direction = "row2col";
     col-gpios
         = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // col0 from schematic
         , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // col1 from schematic
