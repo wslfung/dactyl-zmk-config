@@ -10,6 +10,7 @@
 /{
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,battery = &vbatt;
         zephyr,display = &oled;
     };
     mock_kscan: kscan_1 {
@@ -69,3 +70,4 @@
         , <&pro_micro 10 GPIO_ACTIVE_HIGH> // row6 from schematic
         ;
 };
+

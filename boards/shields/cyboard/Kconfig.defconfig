@@ -37,8 +37,9 @@ endchoice
 
 endif
 
-
 endif
+
+
 
 if SHIELD_CYBOARD_DONGLE || SHIELD_CYBOARD_LEFT || SHIELD_CYBOARD_RIGHT
 
