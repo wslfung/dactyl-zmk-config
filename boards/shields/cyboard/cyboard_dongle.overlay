@@ -17,6 +17,7 @@
         columns = <0>;
         rows = <0>;
         events = <0>;
+        row-gpios = ;
     };
 };
 
