@@ -5,6 +5,7 @@
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
 
+        kscan = <&kscan0>;
         transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
