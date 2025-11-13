@@ -6,13 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif
-
-if SHIELD_CYBOARD_DONGLE || SHIELD_CYBOARD_LEFT || SHIELD_CYBOARD_RIGHT
-
-config ZMK_SPLIT
-    default y
-
 if ZMK_DISPLAY
 
 config I2C
@@ -27,5 +20,11 @@ endchoice
 
 endif
 
+endif
+
+if SHIELD_CYBOARD_DONGLE || SHIELD_CYBOARD_LEFT || SHIELD_CYBOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
