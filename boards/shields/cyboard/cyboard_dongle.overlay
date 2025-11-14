@@ -64,6 +64,6 @@
 };
 
 &dactyl_layout {
-    kscan = <&mock_kscan>
+    kscan = <&mock_kscan>;
 };
 
