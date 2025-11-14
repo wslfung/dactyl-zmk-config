@@ -63,3 +63,7 @@
     status = "disabled";
 };
 
+&dactyl_layout {
+    kscan = <&mock_kscan>
+}
+
