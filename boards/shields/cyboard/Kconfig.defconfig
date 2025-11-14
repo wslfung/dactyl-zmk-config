@@ -11,7 +11,7 @@ if ZMK_DISPLAY
 config I2C
     default y
 
-config SH1106
+config SSD1306
     default y
 
 config LVGL
@@ -23,7 +23,7 @@ endchoice
 
 endif
 
-if SH1106
+if SSD1306
 
 config LV_Z_VDB_SIZE
     default 64
